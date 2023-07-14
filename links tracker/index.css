@@ -1,0 +1,103 @@
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(356deg, rgba(0,0,0,1) 48%, rgba(2,0,36,1) 70%);
+    font-family: Agdasima;
+    min-width: 400px;
+}
+.text{
+    color: white;
+    text-align: center;
+    font-size:300%;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    margin-top:50px;
+}
+span{
+    display:inline-block;
+}
+span::first-letter{
+    color:yellowgreen;
+}
+
+
+
+button {
+    background: #5f9341;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 15px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    width: 200px;
+    cursor: pointer;
+}
+#delete-btn {
+    color: red;
+    background:white;
+    border:1px solid red;
+}
+#btns{
+    text-align:center;
+}
+button:hover{
+    background: white;
+    color: #5f9341;
+}
+#delete-btn:hover {
+    color: white;
+    background:red;
+    border:1px solid red;
+}
+
+ul {
+    list-style-type: square;
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    
+}
+
+li {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: yellowgreen;
+    font-size:150%;
+
+}
+hr{
+    border: 0.2px dotted green;
+}
+.line-btn{
+    width: 50px;
+    padding: 2px 1px;
+    margin-left: 50px;
+    font-weight: bold;
+    border-radius: 50px;
+    color: white;
+    background:red;
+    border:1px solid red;
+}
+.li-del:hover{
+    color: rgb(247, 50, 50);
+    background:white;
+}
+li:hover,a:hover{
+    background-color: #5f9341;
+    color:white;
+}
+#bt{
+    text-align: center;
+}

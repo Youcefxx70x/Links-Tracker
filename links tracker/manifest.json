@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Links tracker",
+    "description": "a light extension that saves favourite links and urls in browser's storage",
+    
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "LS.png"
+    },
+    "permissions":[
+        "tabs"
+    ]
+}
